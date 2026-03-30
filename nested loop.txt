@@ -1,0 +1,19 @@
+
+
+R=int(input("enter the rows : "))
+C=int(input("inert the clumns: "))
+S=input("enter a symbol to use: ")
+
+for x in range(R):
+    for y in range(C):
+        print(S, end="")
+    print()
+
+#printing
+&&&&&&&&&&&
+&&&&&&&&&&&
+&&&&&&&&&&&
+&&&&&&&&&&&
+&&&&&&&&&&&
+
+

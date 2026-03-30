@@ -1,0 +1,24 @@
+
+drink = input("what do you drink now (coffee or watter or tea)>>")
+
+if drink =="coffee":
+    chose= input("do you want coffee <<black>> or coffee <<white>> ?: ")
+    if chose == "black":
+        print("Nice coffee black")
+
+    elif chose =="white":
+        print("Nice coffee white")
+    else:
+        print("SORRY,YOUR REQUEST IS NOT AVAILABLE")
+elif drink =="tea":
+    chose_2 = input("do you want <<red tea>>  or <<green tea >> ")
+    if chose_2 == "red tea":
+        print("Nice red tea")
+    elif chose_2 == "green tea" :
+        print("Nice green tea")
+    else:
+        print("SORRY,YOUR REQUEST IS NOT AVAILABLE")
+elif drink =="watter":
+    print("take watter")
+else:
+    print("SORRY,YOUR REQUEST IS NOT AVAILABLE")

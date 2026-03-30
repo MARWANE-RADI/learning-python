@@ -1,0 +1,13 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import sounddevice as sd
+
+t = np.linspace(0,10,11)
+y = 2*t
+z = -2*t
+
+print(t)
+plt.scatter(t,y,z)
+plt.plot(t,y,z)
+plt.title('fonction f(x) = 2x')
+plt.show()

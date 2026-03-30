@@ -1,0 +1,11 @@
+
+
+def weekend(day):
+    match day :
+        case "saturday" | "sunday":
+            return True
+        case "monday" | "friday":
+            return False
+        case _:
+            return "tis is not valid"
+print(weekend("mara"))

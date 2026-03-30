@@ -1,0 +1,16 @@
+w = 3.14
+x = -4
+y = 3
+z = 8
+
+result1=round(w)
+result2=abs(x)
+result3=pow(y,2)
+result4=max(w,x,y,z)
+result5=min(w,x,y,z)
+
+print(result1)
+print(result2)
+print(result3)
+print(result4)
+print(result5)

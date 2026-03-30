@@ -1,0 +1,37 @@
+
+from matplotlib import pyplot as plt
+plt.style.use("fivethirtyeight")
+
+data =[30,20,20,15,10,5]
+explode=[0,0,0,0,0.2,0]
+labels=["BMW ","DODGE","FORD ","MERCEDES","BORCH","JAGWAR",]
+color =["blue","black","red","yellow","green","orange",]
+
+
+plt.pie(data ,labels=labels ,explode=explode
+,colors=color,wedgeprops= {"edgecolor":"black"})
+
+plt.title("CARS")
+plt.tight_layout()
+plt.show()
+
+############################################"
+
+
+from matplotlib import pyplot as plt
+plt.style.use("fivethirtyeight")
+
+data =[30,20,20,15,10,5]
+explode=[0,0,0,0,0.2,0]
+labels=["BMW ","DODGE","FORD ","MERCEDES","BORCH","JAGWAR",]
+color =["blue","violet","red","yellow","green","orange",]
+
+
+plt.pie(data ,labels=labels ,explode=explode
+,shadow=True,autopct="%1.2f%%",colors=color
+,wedgeprops= {"edgecolor":"black"})
+
+plt.title("CARS")
+plt.tight_layout()
+plt.show()
+

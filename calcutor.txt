@@ -1,0 +1,27 @@
+
+
+num_1=float(input("enter first number :"))
+oper =input("chose an operation :")
+num_2=float(input("enter last number :"))
+
+if oper == "+" :
+    R_povitive = num_1 + num_2
+    print(num_1,"+",num_2, "=", R_povitive)
+
+elif oper == "-" :
+    R_negative = num_1 - num_2
+    print(num_1,"-",num_2,"=",R_negative)
+
+elif oper == "*" :
+     R_multipel = num_1 * num_2
+     print(num_1,"*",num_2,"=",R_multipel)
+elif oper == "/" :
+    if num_2 != 0:
+      R_division = num_1 / num_2
+      print(num_1,"/",num_2,"=",R_division)
+    else:
+        print(" Your Can't Division By Zero")
+
+else:
+
+    print("this is not vaild")

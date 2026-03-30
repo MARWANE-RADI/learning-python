@@ -1,0 +1,21 @@
+###################enclosed
+
+def fun1():
+    x=2
+
+    def fun2():
+       x=4
+       print(x)
+    fun2()
+fun1()
+
+######################global
+
+def fun1():
+    print(x)
+
+def fun2():
+    print(x)
+x=5
+fun2()
+fun1()

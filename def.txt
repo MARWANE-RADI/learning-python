@@ -1,0 +1,36 @@
+
+
+
+def positive(x,y):
+    result= x + y
+    return result
+print(positive(20,10))
+
+def negative(x,y,z):
+    result=pow((x-y)/z,2)
+    return result
+print(negative(20,10,2))
+
+###################################
+
+
+import time
+
+def data (start,end ):
+    for x in range(start,end):
+        print(x)
+        time.sleep(1)
+    print("he's done!!")
+data(20,100)
+
+###########################"
+
+
+import time
+
+def data (start,end=10):
+    for x in range(start,end+1):
+        print(x)
+        time.sleep(1)
+    print("he's done!!")
+data(0)

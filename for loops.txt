@@ -1,0 +1,21 @@
+for X in reversed(range(1,6)):
+    print(X)
+
+print("superaise mather fucker")
+
+#####################
+for x in range (1,11):
+
+    if x == 8:
+        continue        #scept number 8
+    else:
+         print(x)
+
+###################
+
+for x in range (1,11):
+
+    if x == 8:
+        break          # delete or suprime all number from 8 to 11
+    else:
+         print(x)

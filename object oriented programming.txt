@@ -1,0 +1,45 @@
+
+
+class car:
+    def __init__(self,name,model,color):
+       self.name=name
+       self.model=model
+       self.color=color
+
+car1=car("cadilac",2025,"black")
+car2=car("maclaren",2005,"red")
+
+print(f"model of car :{car2.model}")
+print(f"color of car :{car1.color}")
+print(f"name of car :{car1.name}")
+
+
+############################# exempel######
+
+from exemple import car
+
+car1=car("cadilac",2025,"black")
+car2=car("maclaren",2005,"red")
+
+
+car2.drive()
+car1.drive()
+car2.stop()
+car1.stop()
+
+#oder file  exempel ...
+
+
+class car:
+    def __init__(self,name,model,color):
+       self.name=name
+       self.model=model
+       self.color=color
+
+    def drive (self):
+         print(f" you drive the {self.name}")
+
+    def stop(self):
+        print(f"you stop the {self.name}")
+
+

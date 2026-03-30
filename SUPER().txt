@@ -1,0 +1,42 @@
+
+
+class Shape:
+    def __init__(self,color,filled):
+        self.color = color
+        self.filled= filled
+    def describe(self):
+        print(f"it is  <<{self.color}>> and {"<<is filled>>" if self.filled else "<<not filled>>"}")
+
+class Circle (Shape):
+    def __init__(self,color,filled,raduis):
+        super().__init__(color,filled)
+        self.raduis=raduis
+    def describe(self):
+        super().describe()
+        print(f"it is circle with area of {3.14*pow(self.raduis,2)} cm^2")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>>")
+class Square (Shape):
+    def __init__(self,color,filled,width):
+        super().__init__(color,filled)
+        self.width= width
+
+    def describe(self):
+        super().describe()
+        print(f"it is square with area of {pow(self.width,2)} cm^2")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>>")
+class Triangle (Shape) :
+    def __init__(self,color,filled,width,heigth):
+        super().__init__(color,filled)
+        self.width=width
+        self.height=heigth
+    def describe(self):
+        super().describe()
+        print(f"it is Traingle with area of{(self.height * self.width)/2} cm^2")
+
+C=Circle("Red",True,3)
+S=Square("Black",False,5)
+T=Triangle("Bleu",True,6,8 )
+
+C.describe()
+S.describe()
+T.describe()

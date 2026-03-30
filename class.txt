@@ -1,0 +1,27 @@
+
+
+class animal:
+    def __init__(self,name):
+        self.name  = name
+        self.alive = True
+
+    def eat (self):
+        print(f"{self.name} yes eat")
+
+    def sleep (self):
+        print(f"{self.name} is sleep")
+
+class dog(animal):
+    pass
+class cat(animal):
+    pass
+class horse(animal):
+    pass
+
+dog=dog("aouraich")
+cat=cat("mimi")
+horse=horse("rog")
+
+print(dog.name)
+print(dog.alive)
+

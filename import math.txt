@@ -1,0 +1,39 @@
+import math
+
+print(math.pi)
+print(math.e)
+
+#######################
+import math
+x=6.4
+#result=math.sqrt(x)
+#result=math.ceil(x)
+#result=math.floor(x)
+
+print(result)
+
+######################## circumfereence.
+import math
+raduis =float(input("enter the raduis of circle:"))
+circumference= 2 * math.pi * raduis
+print(f"the C= {round(circumference,3)} CM")
+
+########################  AREA .
+import math
+
+raduis= float(input("enter the raduis of a circle :"))
+
+Area = math.pi * pow(raduis,2)
+print(f"A = {round(Area,2)} CM^2")
+
+########################## side.
+import math
+
+a= float(input("enter Sin = "))
+b=float(input("enter cos = "))
+c= math.sqrt(pow(a,2) + pow(b,2))
+
+print(f"side = {round(c,2)} ")
+
+############################# 
+

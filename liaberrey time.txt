@@ -1,0 +1,25 @@
+import time
+
+
+SPECIFIED_TIME=int(input("enter time in seconds : "))
+
+for x in range(0,SPECIFIED_TIME):
+ print(x)
+ time.sleep(1)
+print("IT'S SHOW TIME ")
+
+
+#########################
+
+import time
+
+
+SPECIFIED_TIME=int(input("enter time in seconds : "))
+
+for x in range(SPECIFIED_TIME,0,-1):
+    secounds= x % 60
+    minutes =int(x/60)%60
+    hours= int(x/3600)
+    print(f"{hours:02}:{minutes:02}:{secounds:02}")
+    time.sleep(1)
+print("IT'S SHOW TIME ")

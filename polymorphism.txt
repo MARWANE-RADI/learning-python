@@ -1,0 +1,31 @@
+
+from  abs  import  ABC, abstractmethode
+
+class shape
+    @abstractmethod
+    def area(self)
+        pass
+
+class Circle(shape)
+    def __init__(self,raduis)
+        self.raduis=raduis
+    def area(self)
+        return 3.14 self.raduis 2
+
+class Square(shape)
+    def __init__(self,side)
+       self.side= side
+    def area(self)
+        return self.side2
+
+class Triangle(shape)
+    def __init(self,base,heigth)
+        self.base  =base
+        self.heigth=heigth
+    def area(self)
+        return  (self.base  self.heigth)2
+
+shapes=[Circle(3),Square(4),Triangle(4,8)]
+
+for shape in shapes
+    print(f{shape.area()})

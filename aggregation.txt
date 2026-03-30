@@ -1,0 +1,30 @@
+@**Ab123
+
+
+class library:
+    def __init__(self,name):
+        self.name =name
+        self.books= []
+
+    def add_book(self,book):
+        self.books.append(book)
+
+    def list_book(self):
+        return [f"{book.title} by {book.author}" for book in self.books]
+
+class book:
+    def __init__(self,title,author):
+        self.title  = title
+        self.author = author
+
+library=library("jamiaat lkaraouin ")
+
+book1= book("THE HOUS OF THE DEAD","Dostoyevsky")
+book2=book("YOU CAN'T HURT ME","Diavid Goggens")
+book3=book("THE COLOR OF MAGIC","Terry Pratchet")
+
+
+print(library.list_book)
+
+for book in library.list_book():
+    print(book)

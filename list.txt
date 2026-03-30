@@ -1,0 +1,11 @@
+
+# name_lite.append("cadilac")         << add object  in list ,int , str ,float , anywhere but in last
+# name_lite.insert(2,"BMW)            << add object in list and 2 is place that you want to add
+# del name_lite[2]                    << delete object in list and [] any object ,exemple[2]
+# name_lite.remove("c50")             << delete object
+
+momorcycle=["harley","kawazaki","yamaha","c50"]
+
+print("befor>>",momorcycle)
+del momorcycle[2]
+print("after",momorcycle)
